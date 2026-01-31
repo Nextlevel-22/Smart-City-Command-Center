@@ -1,0 +1,39 @@
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  background: #0a0f1c;
+  overflow: hidden;
+}
+
+/* Particle background */
+.particles-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* Dashboard layer */
+.dashboard {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Panels */
+.panel {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  box-shadow: 0 0 20px rgba(0, 255, 224, 0.15);
+}
+.particles-container {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
